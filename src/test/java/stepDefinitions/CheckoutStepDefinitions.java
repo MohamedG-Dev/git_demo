@@ -21,6 +21,7 @@ public class CheckoutStepDefinitions {
 		// Assertion to extract name fromm the screen and compare with the vegetableName
 		// variable
 		String itemName = checkOutPage.getProductName().split("-")[0].trim();
+		System.out.println("itemName");
 		Assert.assertTrue(itemName.startsWith(vegetableName));
 	}
 
