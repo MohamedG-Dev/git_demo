@@ -26,6 +26,8 @@ public class CheckoutStepDefinitions {
 
 	@Then("User has the ability to enter promocode and place the order")
 	public void user_has_the_ability_to_enter_promocode_and_place_the_order() {
+		System.out.println(checkOutPage.verifyPromoButton());
+		System.out.println(checkOutPage.verifyPlaceOrderButton());
 		Assert.assertTrue(checkOutPage.verifyPromoButton());
 		Assert.assertTrue(checkOutPage.verifyPlaceOrderButton());
 	}
