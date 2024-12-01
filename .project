@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>git_demo</name>
+=======
+	<name>cucumber_selenium_JUnitframework</name>
+>>>>>>> c34a4eb2523cfe496add795127d837b4e5384155
 	<comment></comment>
 	<projects>
 	</projects>
